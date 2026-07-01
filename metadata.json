@@ -1,0 +1,8 @@
+{
+  "name": "VSTEP Speaking Part 3 Practice Board_Mixed Topics",
+  "description": "An interactive practice tool for VSTEP Speaking Part 3 Topic Development, featuring automated timers, interactive mind maps, and band comparisons.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
