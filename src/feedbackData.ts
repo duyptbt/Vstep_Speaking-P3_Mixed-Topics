@@ -38,394 +38,339 @@ export interface TopicFeedback {
 
 export const SET2_DETAILED_FEEDBACK: Record<number, TopicFeedback> = {
   0: {
-    // Studying abroad
+    // Reading books
     b1: {
       grammar_errors: [
-        { error: "it give them three important benefit", correction: "it gives them three important benefits", reason: "Thiếu s chia động từ ngôi thứ 3 số ít và danh từ đếm được số nhiều sau số lượng 'three'." },
-        { error: "experience new culture", correction: "experience new cultures", reason: "Thiếu danh từ số nhiều khi nói chung về các nền văn hóa mới." },
-        { error: "their language skill improve", correction: "their language skills improve", reason: "Danh từ 'skill' cần ở dạng số nhiều để diễn tả các kỹ năng ngôn ngữ nói chung." },
-        { error: "solve problem", correction: "solve problems", reason: "Cụm động từ diễn đạt giải quyết khó khăn nói chung cần danh từ số nhiều." },
-        { error: "without parent help", correction: "without parents' help / without their parents' help", reason: "Thiếu sở hữu cách chỉ sự giúp đỡ của cha mẹ." }
+        { error: "in three way", correction: "in three ways", reason: "Sau số lượng 'three', danh từ đếm được 'way' phải ở dạng số nhiều 'ways'." },
+        { error: "it make / it train", correction: "it makes / it trains", reason: "Thiếu -s chia động từ ngôi thứ ba số ít với chủ ngữ 'it'." },
+        { error: "reading help", correction: "reading helps", reason: "Danh động từ 'reading' làm chủ ngữ số ít yêu cầu động từ chia 'helps'." },
+        { error: "read book", correction: "read books", reason: "Cần dạng số nhiều 'books' khi diễn đạt việc đọc sách nói chung." }
       ],
-      lexical_advice: "Bài nói sử dụng các từ vựng rất cơ bản ('very good', 'living alone', 'learn to take care'). Để nâng lên B2, hãy dùng các collocations tự nhiên như 'live on your own', 'worth every penny', 'self-reliant'."
+      lexical_advice: "Bài nói dùng các từ cơ bản như 'good exercise', 'learn many new things'. Để nâng lên B2/C1, hãy thử các cụm collocations tự nhiên như 'valuable habit', 'deep attention', 'breadth of knowledge'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "off the top of my head", ipa: "/ɒf ðə tɒp ɒv maɪ hed/", meaning: "ngay lập tức nghĩ ra, không cần suy nghĩ lâu", example: "Off the top of my head, there are three main reasons." },
-        { term: "grow up fast", ipa: "/ɡrəʊ ʌp fɑːst/", meaning: "trưởng thành nhanh chóng", example: "Living on your own forces you to grow up fast." },
-        { term: "self-reliant", ipa: "/ˌself rɪˈlaɪənt/", meaning: "tự lập, tự thân vận động", example: "She returned from her trip incredibly self-reliant." },
-        { term: "worth every penny", ipa: "/wɜːθ ˈevri ˈpeni/", meaning: "hoàn toàn xứng đáng với chi phí bỏ ra", example: "The study abroad experience is worth every penny." }
+        { term: "come across", ipa: "/kʌm əˈkrɒs/", meaning: "tình cờ gặp, bắt gặp", example: "Reading introduces children to things they would never come across in everyday life." },
+        { term: "work out", ipa: "/wɜːk aʊt/", meaning: "hiểu ra, tìm ra câu trả lời", example: "...and work out what is happening." },
+        { term: "valuable habit", ipa: "/ˈvæljuəbl ˈhæbɪt/", meaning: "thói quen vô giá, hữu ích", example: "Children who read a lot tend to ask more questions, and that is a very valuable habit." }
       ],
       grammar_highlights: [
-        { structure: "Force someone to do something", explanation: "Cấu trúc bắt buộc ai đó phải tự làm gì, biểu thị áp lực hoàn cảnh tích cực.", example: "Living on your own in a foreign country forces you to grow up fast." },
-        { structure: "Relative Clause with 'what' (Cleft clause)", explanation: "Mệnh đề nhấn mạnh giúp bài nói tự nhiên và tập trung hơn vào thông tin cốt lõi.", example: "...what I noticed when she came back was how much more confident she was." }
+        { structure: "Relative clause with 'who'", explanation: "Dùng mệnh đề quan hệ xác định làm rõ chủ ngữ.", example: "A child who reads a lot just knows more." }
       ],
       fluency_coherence: [
-        "Sử dụng filler nói tự nhiên 'To be honest' mở đầu thay cho các mẫu viết cứng nhắc.",
-        "Dùng liên từ chuyển tiếp linh hoạt: 'Take independence, for example', 'Also', 'And as for the language...'",
-        "Có kết luận tóm gọn mang tính cá nhân hóa bằng 'So yeah, I'd say...'"
+        "Sử dụng các cấu trúc chuyển tiếp tự nhiên: 'On the knowledge side...', 'And books keep...'",
+        "Dẫn ý mạch lạc từ giới thiệu đến phát triển chi tiết."
       ],
-      delivery_tips: "Hãy chú ý nhấn mạnh vào từ mang thông tin quan trọng như 'forces', 'textbook', 'every single day' và hạ giọng nhẹ ở cuối câu khẳng định."
+      delivery_tips: "Nhấn mạnh vào các trạng từ và tính từ mang thông tin như 'never', 'close attention', 'valuable' để tạo điểm nhấn âm điệu."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "life-altering experience", ipa: "/laɪf ˈɔːltərɪŋ ɪkˈspɪəriəns/", meaning: "trải nghiệm thay đổi cuộc đời", example: "Studying abroad is a profound, life-altering experience." },
-        { term: "existential self-reliance", ipa: "/ˌeɡzɪˈstenʃl ˌself rɪˈlaɪəns/", meaning: "sự tự lập tự thân từ trong nhận thức/hiện sinh", example: "It is what I would call existential self-reliance." },
-        { term: "comfort with ambiguity", ipa: "/ˈkʌmfət wɪð ˌæmbɪˈɡjuːəti/", meaning: "sự thoải mái trong môi trường mơ hồ/chưa biết trước", example: "She returned with a complete comfort with ambiguity." },
-        { term: "unconscious biases", ipa: "/ʌnˈkɒnʃəs ˈbaɪəsɪz/", meaning: "định kiến vô thức", example: "Immersion forces you to confront your own unconscious biases." },
-        { term: "intellectual adaptability", ipa: "/ˌɪntəˈlektʃuəl əˌdæptəˈbɪləti/", meaning: "khả năng thích ứng về trí tuệ và tư duy", example: "The return in terms of intellectual adaptability is immeasurable." }
+        { term: "compelling", ipa: "/kəmˈpelɪŋ/", meaning: "thuyết phục, hấp dẫn", example: "The thinking skills argument is the most compelling." },
+        { term: "follow a narrative", ipa: "/ˈfɒləʊ ə ˈnærətɪv/", meaning: "theo dõi cốt truyện/mạch truyện", example: "Reading requires you to follow a narrative across many pages." },
+        { term: "breadth", ipa: "/bredθ/", meaning: "bề rộng, sự phong phú kiến thức", example: "That kind of breadth is hard to develop any other way." }
       ],
       grammar_highlights: [
-        { structure: "Cleft Sentence (What-cleft with contrast)", explanation: "Cấu trúc câu chẻ dùng để bác bỏ một ý kiến thông thường và nhấn mạnh bản chất thực sự của sự việc.", example: "What struck me wasn't her academic credentials, but her complete comfort with ambiguity." },
-        { structure: "Gerund as Subject in complex sentence", explanation: "Dùng danh động từ làm chủ ngữ kết hợp với mệnh đề quan hệ rút gọn nhằm tăng độ súc tích của lập luận.", example: "Living inside a different set of assumptions makes you realise how much of what you take for granted is not universal." }
+        { structure: "Emphatic DO in affirmative", explanation: "Dùng trợ động từ 'do/does' để nhấn mạnh động từ chính trong câu khẳng định.", example: "I do think children should be encouraged to read..." }
       ],
       fluency_coherence: [
-        "Chuyển tiếp cực kỳ mượt mà bằng cách liên kết ý trước với ý sau: 'When we talk about independence, it's not just about...'",
-        "Tránh lặp từ bằng các cụm đồng nghĩa học thuật tinh tế: 'study abroad' -> 'absolute immersion', 'worth the money' -> 'immeasurable return'."
+        "Liên kết ý cực kỳ chặt chẽ bằng cách so sánh hoạt động đọc sách với việc xem video ('different kind of mental effort compared to watching a video').",
+        "Kết bài đúc kết súc tích, mở rộng ý nghĩa ('builds the kind of mind that keeps learning on its own')."
       ],
-      delivery_tips: "Sử dụng 'contrasting stress' khi nói câu chẻ: nhấn mạnh mạnh vào chữ 'academic credentials' (lên giọng nhẹ) và hạ giọng sâu, nhấn mạnh chữ 'comfort with ambiguity' để tạo sự tương phản rõ rệt."
+      delivery_tips: "Sử dụng 'contrasting stress' khi đối chiếu giữa 'focused reading' và 'watching a video' để bộc lộ rõ ràng quan điểm cá nhân."
     }
   },
   1: {
-    // University education
+    // Physical exercise
     b1: {
       grammar_errors: [
-        { error: "university degree is very important", correction: "a university degree is very important", reason: "Thiếu mạo từ 'a' trước danh từ số ít đếm được." },
-        { error: "it open three opportunity for student", correction: "it opens three opportunities for students", reason: "Động từ 'open' thiếu -s chia với ngôi thứ 3 số ít; danh từ sau 'three' và giới từ 'for' chỉ đối tượng chung phải ở số nhiều." },
-        { error: "university help student develop", correction: "university helps students develop / universities help students develop", reason: "Sai hòa hợp chủ ngữ và động từ ngôi thứ 3 số ít." },
-        { error: "These connection are", correction: "These connections are", reason: "Danh từ chỉ định 'These' đi với danh từ số nhiều." }
+        { error: "in three way", correction: "in three ways", reason: "Sau số lượng 'three' đi với danh từ số nhiều." },
+        { error: "it improve / it reduce / it help", correction: "it improves / it reduces / it helps", reason: "Thiếu -s chia động từ ngôi thứ 3 số ít với chủ ngữ 'it'." },
+        { error: "feel more relax", correction: "feel more relaxed", reason: "Tính từ đuôi -ed 'relaxed' để miêu tả trạng thái cảm xúc của người." },
+        { error: "30 minute", correction: "30 minutes", reason: "Danh từ 'minute' phải ở dạng số nhiều sau số lượng lớn hơn 1." }
       ],
-      lexical_advice: "Bài nói lặp lại từ 'degree' và 'career choice' quá nhiều lần. Hãy làm phong phú vốn từ với các cụm từ B2 như 'career options', 'solid professional network', 'head start'."
+      lexical_advice: "Học viên lặp từ 'exercise' và 'feel' nhiều lần. Hãy mở rộng vốn từ bằng cách dùng 'moderate exercise', 'recharge batteries', 'overall wellbeing'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "massive asset", ipa: "/ˈmæsɪv ˈæset/", meaning: "tài sản to lớn, lợi thế cực lớn", example: "A university degree is still a massive asset for success." },
-        { term: "locked out of", ipa: "/lɒkt aʊt ɒv/", meaning: "bị khóa/chặn không cho tiếp cận", example: "Without a degree, you're pretty much locked out of high-paying industries." },
-        { term: "analyze things from different angles", ipa: "/ˈænəlaɪz θɪŋz frɒm ˈdɪfrənt ˈæŋɡlz/", meaning: "phân tích mọi thứ dưới nhiều góc độ khác nhau", example: "University pushes you to analyze things from different angles." },
-        { term: "give someone a huge head start", ipa: "/ɡɪv ˈsʌmˌwʌn ə hjuːdʒ hed stɑːt/", meaning: "cho ai đó một bệ phóng/lợi thế xuất phát điểm lớn", example: "It definitely gives you a huge head start." }
+        { term: "moderate exercise", ipa: "/ˈmɒdərət ˈeksəsaɪz/", meaning: "tập thể dục với cường độ vừa phải", example: "Even thirty minutes of moderate exercise a day can reduce the risk." },
+        { term: "handle daily pressure", ipa: "/ˈhændl ˈdeɪli ˈpreʃə/", meaning: "đối phó, xử lý áp lực hàng ngày", example: "People who exercise regularly tend to handle daily pressure much better." },
+        { term: "carries over into", ipa: "/ˈkæriz ˈəʊvər ˈɪntuː/", meaning: "lan tỏa, áp dụng tốt sang lĩnh vực khác", example: "And the discipline that comes from exercising every day carries over into other parts of life." }
       ],
       grammar_highlights: [
-        { structure: "From where I stand", explanation: "Cụm trạng từ mở đầu tự nhiên, thể hiện quan điểm cá nhân một cách khiêm tốn nhưng chắc chắn.", example: "From where I stand, it mainly comes down to three things." },
-        { structure: "Gerund clauses with 'while'", explanation: "Mệnh đề nhượng bộ thể hiện tư duy đa chiều và khả năng lập luận cân bằng.", example: "So while a degree isn't the only way to succeed, it definitely gives you a head start." }
+        { structure: "Even + Noun Phrase as Subject", explanation: "Nhấn mạnh định lượng nhỏ tối thiểu vẫn đem lại lợi ích lớn.", example: "Even thirty minutes of moderate exercise a day can reduce..." }
       ],
       fluency_coherence: [
-        "Cách đưa luận điểm mạch lạc: 'On the career front...', 'Also...', 'But perhaps the biggest secret is...'",
-        "Sử dụng quán ngữ nói tự nhiên: 'pretty much', 'ways you can't even imagine'."
+        "Chuyển tiếp mạch lạc: 'On physical health...', 'Exercise is also...', 'And the discipline...'",
+        "Trình bày lập luận logic kết nối rèn luyện thể chất với kỷ luật tinh thần."
       ],
-      delivery_tips: "Tách nhịp rõ ràng khi liệt kê ba luận điểm. Lên giọng nhẹ ở luận điểm thứ nhất và thứ hai, hạ giọng hẳn ở luận điểm cuối cùng để báo hiệu kết thúc chuỗi thông tin."
+      delivery_tips: "Phát âm rõ âm cuối 's' trong 'improves', 'reduces', 'builds' và các danh từ số nhiều."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "credentialing filter", ipa: "/krəˈdenʃəlɪŋ ˈfɪltə/", meaning: "bộ lọc sàng lọc bằng cấp/hồ sơ", example: "It serves as a crucial credentialing filter in the job market." },
-        { term: "cultivate transferable intellectual frameworks", ipa: "/ˈkʌltɪveɪt trænsˈfɜːrəbl ˌɪntəˈlektʃuəl ˈfreɪmwɜːks/", meaning: "nuôi dưỡng những hệ thống tư duy có tính ứng dụng cao", example: "It cultivates highly transferable intellectual frameworks." },
-        { term: "screening mechanism", ipa: "/ˈskriːnɪŋ ˈmekənɪzəm/", meaning: "cơ chế sàng lọc đầu vào", example: "The degree functions as a vital screening mechanism." },
-        { term: "synthesize complex data", ipa: "/ˈsɪnθəsaɪz ˈkɒmpleks ˈdeɪtə/", meaning: "tổng hợp dữ liệu phức tạp", example: "...teaching you how to synthesize complex data." },
-        { term: "peer group effect", ipa: "/pɪə ɡruːp ɪˈfekt/", meaning: "hiệu ứng học hỏi từ bạn bè/áp lực đồng lứa tích cực", example: "And finally, you cannot overlook the peer group effect." }
+        { term: "meaningfully reduces", ipa: "/ˈmiːnɪŋfəli rɪˈdjuːsɪz/", meaning: "giảm thiểu một cách rõ rệt, đáng kể", example: "Even moderate daily movement... meaningfully reduces the risk." },
+        { term: "go unnoticed", ipa: "/ɡəʊ ʌnˈnəʊtɪst/", meaning: "diễn ra âm thầm, không bị phát hiện", example: "...health problems tend to develop gradually and often go unnoticed." },
+        { term: "worth emphasising", ipa: "/wɜːθ ˈemfəsaɪzɪŋ/", meaning: "rất đáng để nhấn mạnh", example: "And the discipline it builds is worth emphasising." }
       ],
       grammar_highlights: [
-        { structure: "Whether we like it or not (Parenthetical insert)", explanation: "Mệnh đề xen kẽ thể hiện sự khách quan, chấp nhận thực tế phũ phàng của thị trường lao động.", example: "Whether we like it or not, without it, your resume is often filtered out." },
-        { structure: "Double-negation / Litotes for emphatic understatement", explanation: "Sử dụng lối phủ định của phủ định để tạo giọng điệu trang nhã, thuyết phục.", example: "And finally, you cannot overlook the peer group effect." }
+        { structure: "Gerund Clause as Subject", explanation: "Sử dụng cụm danh động từ dài làm chủ ngữ giúp tăng tính trang trọng và mạch lạc.", example: "Getting yourself to do something even when you do not feel like it is a very useful habit." }
       ],
       fluency_coherence: [
-        "Dẫn nhập vấn đề bằng cách thừa nhận tính tranh luận: 'It's a highly debated topic nowadays, but in my view...'",
-        "Sử dụng các cấu trúc liên kết luận điểm cực kỳ học thuật: 'Let's look at... first', 'But far more important is...', 'And finally, you cannot overlook...'"
+        "Cách lập luận sâu sắc khi phân tích cơ chế giải tỏa căng thẳng: 'The chemical response to regular exercise is real and significant.'",
+        "Kết bài mang tính đúc kết nhân cách ('about the kind of person regular exercise tends to make you')."
       ],
-      delivery_tips: "Sử dụng ngữ điệu lên xuống uyển chuyển (intonation shifts). Các từ như 'saturated', 'filtered out', 'far more important' cần được nhấn dài hơi và rõ âm tiết."
+      delivery_tips: "Sử dụng kỹ thuật ngắt nhịp (chunking) giữa các cụm trạng ngữ dài để giữ bài nói tự nhiên nhưng uy nghiêm, đĩnh đạc."
     }
   },
   2: {
-    // Teachers' role
+    // Learning English
     b1: {
       grammar_errors: [
-        { error: "build student character", correction: "build students' character / build a student's character", reason: "Thiếu dấu sở hữu cách biểu thị tính cách của học sinh." },
-        { error: "guidance that student need", correction: "guidance that students need / guidance that a student needs", reason: "Danh từ đếm được 'student' không thể đứng một mình không có mạo từ hoặc số nhiều." },
-        { error: "When teacher is enthusiastic", correction: "When a teacher is enthusiastic / When teachers are enthusiastic", reason: "Thiếu mạo từ 'a' trước danh từ số ít." },
-        { error: "be honest, responsible, and work hard", correction: "be honest, responsible, and hard-working", reason: "Sai cấu trúc song hành (parallelism) vì 'work hard' là động từ trong khi 'honest' và 'responsible' là tính từ." }
+        { error: "it give them three benefit", correction: "it gives them three benefits", reason: "Chia động từ ngôi số ít 'gives' và danh từ số nhiều 'benefits' sau 'three'." },
+        { error: "better job opportunity / better job", correction: "better job opportunities / a better job", reason: "Danh từ đếm được số ít cần mạo từ hoặc chuyển sang dạng số nhiều." },
+        { error: "Many company / Many book", correction: "Many companies / Many books", reason: "Sau lượng từ 'Many' phải đi với danh từ số nhiều đếm được." },
+        { error: "from young age", correction: "from a young age", reason: "Thiếu mạo từ 'a' trong cụm từ 'from a young age'." }
       ],
-      lexical_advice: "Học viên B1 thường lặp đi lặp lại từ 'teacher' và 'student'. Hãy cố gắng thay đổi bằng các cụm như 'passionate educator', 'decent human being', hoặc dùng đại từ 'they/them' một cách thông minh."
+      lexical_advice: "Bài nói lặp đi lặp lại từ 'job' và 'speak English'. Nên thay đổi bằng các cụm collocation như 'career advancements', 'professional requirement', 'passive consumer'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "come alive", ipa: "/kʌm əˈlaɪv/", meaning: "trở nên sống động, hấp dẫn", example: "An enthusiastic teacher can make a boring subject come alive." },
-        { term: "decent human being", ipa: "/ˈdiːsnt ˈhjuːmən ˈbiːɪŋ/", meaning: "một người tử tế, công dân tốt", example: "Teachers teach you how to be a decent human being." },
-        { term: "timely push", ipa: "/ˈtaɪmli pʊʃ/", meaning: "sự thúc đẩy kịp thời", example: "They notice when you're struggling and give you a timely push." },
-        { term: "irreplaceable", ipa: "/ˌɪrɪˈpleɪsəbl/", meaning: "không thể thay thế được", example: "A great teacher is still irreplaceable." }
+        { term: "basic requirement", ipa: "/ˈbeɪsɪk rɪˈkwaɪəmənt/", meaning: "yêu cầu cơ bản, bắt buộc", example: "English has become a basic requirement in many fields." },
+        { term: "miss out on", ipa: "/mɪs aʊt ɒn/", meaning: "bỏ lỡ mất cơ hội tốt", example: "Without it, you can miss out on many good opportunities." },
+        { term: "points of view", ipa: "/pɔɪnts ɒv vjuː/", meaning: "quan điểm, góc nhìn cuộc sống", example: "...share ideas, and understand different points of view." }
       ],
       grammar_highlights: [
-        { structure: "Past Simple for personal anecdote", explanation: "Sử dụng thì quá khứ đơn kể lại kỷ niệm thực tế để chứng minh luận điểm, tạo tính thuyết phục cao trong văn nói.", example: "I remember my high school history teacher—she was so passionate that..." },
-        { structure: "Concessive clause with 'Even with'", explanation: "Mệnh đề nhượng bộ bác bỏ lập luận công nghệ thay thế con người.", example: "So even with all the online learning tools we have today, a great teacher is still irreplaceable." }
+        { structure: "Make + Object + Adjective", explanation: "Cấu trúc tác động khiến cho điều gì đó trở nên thế nào.", example: "...and it makes real cultural exchange possible." }
       ],
       fluency_coherence: [
-        "Sử dụng quán ngữ đệm tự nhiên: 'If you ask me...', 'Firstly...', 'Secondly...', 'Lastly...'",
-        "Có sự đối chiếu trực quan: 'textbook' đối lập với 'an enthusiastic teacher'."
+        "Liên kết chặt chẽ giữa các khía cạnh công việc, tiếp nhận tri thức toàn cầu, và giao lưu văn hóa.",
+        "Sử dụng trạng từ chỉ mức độ tốt: 'very significant', 'in a real way'."
       ],
-      delivery_tips: "Khi nhắc đến câu chuyện cá nhân 'I remember my high school...', giọng điệu nên chuyển sang tông ấm áp, tốc độ nói chậm lại một chút để tạo cảm giác tự nhiên như đang tâm sự."
+      delivery_tips: "Hãy chú ý nối âm ở cụm 'opens up' /ˈəʊpənz_ʌp/ và 'miss out on' /mɪs_aʊt_ɒn/."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "cornerstone of education", ipa: "/ˈkɔːnəstəʊn ɒv ˌedʒuˈkeɪʃn/", meaning: "đá tảng, nền móng cốt lõi của giáo dục", example: "Teachers are the absolute cornerstone of education." },
-        { term: "ignite intellectual curiosity", ipa: "/ɪɡˈnaɪt ˌɪntəˈlektʃuəl ˌkjuːriˈɒsəti/", meaning: "thắp sáng, khơi dậy trí tò mò học hỏi", example: "They ignite intellectual curiosity." },
-        { term: "architects of character development", ipa: "/ˈɑːkɪtekts ɒv ˈkærəktə dɪˈveləpmənt/", meaning: "kiến trúc sư định hình nhân cách", example: "They serve as architects of character development." },
-        { term: "contagious enthusiasm", ipa: "/kənˈteɪdʒəs ɪnˈθjuːziæzəm/", meaning: "sự nhiệt huyết dễ lây lan, truyền cảm hứng", example: "They possess this almost contagious enthusiasm." },
-        { term: "bespoke guidance", ipa: "/bɪˈspəʊk ˈɡaɪdns/", meaning: "sự hướng dẫn cá nhân hóa, đo ni đóng giày", example: "Most importantly, they provide bespoke guidance." }
+        { term: "reach a ceiling", ipa: "/riːtʃ ə ˈsiːlɪŋ/", meaning: "chạm tới giới hạn tối đa (trần sự nghiệp), không thăng tiến được nữa", example: "People sometimes reach a ceiling in their careers because they cannot..." },
+        { term: "avoidable career limitations", ipa: "/əˈvɔɪdəbl kəˈrɪə ˌlɪmɪˈteɪʃnz/", meaning: "những hạn chế sự nghiệp hoàn toàn có thể tránh được", example: "That is one of the most avoidable career limitations there is." },
+        { term: "passive consumer", ipa: "/ˈpæsɪv kənˈsjuːmə/", meaning: "người tiêu thụ, thụ hưởng thụ động", example: "...you stop being a passive consumer of other cultures." }
       ],
       grammar_highlights: [
-        { structure: "Noun Clause as Subject", explanation: "Dùng mệnh đề danh từ làm chủ ngữ để biến luận điểm thành một câu khẳng định có sức nặng triết lý.", example: "The teacher I remember most from school communicated genuine fascination." },
-        { structure: "Emphatic DO in affirmative", explanation: "Dùng trợ động từ 'do/does/did' đứng trước động từ nguyên thể để nhấn mạnh tuyệt đối hành động.", example: "A truly exceptional teacher doesn't just transmit content; they do inspire." }
+        { structure: "Double-negation for emphasis", explanation: "Sử dụng hai từ phủ định trong câu để nhấn mạnh ý khẳng định một cách tinh tế.", example: "...fields, even ones that are not specifically international." }
       ],
       fluency_coherence: [
-        "Cách lập luận vượt lên trên câu hỏi thông thường: 'the interesting question is not whether they are important but in what ways.'",
-        "Kết bài mang tính đúc kết cực kỳ sắc sảo và mang tính tương phản: 'Google can give you all the answers, but only a teacher can help you ask the right questions.'"
+        "Thừa nhận thực tế khách quan về rào cản ngôn ngữ khiến sự nghiệp bị chững lại.",
+        "Kết bài xuất sắc bằng việc định nghĩa lại việc học tiếng Anh ('as a tool that permanently expands what is possible...')."
       ],
-      delivery_tips: "Sử dụng kỹ thuật 'chunking' (ngắt nhịp tư duy). Ngắt một nhịp nhỏ sau cụm từ 'absolute cornerstone of education' để người nghe kịp thẩm thấu tầm quan trọng của luận điểm."
+      delivery_tips: "Nhấn mạnh mạnh mẽ vào trạng từ 'permanently' và động từ 'expands' ở phần kết để tăng sức thuyết phục tuyệt đối."
     }
   },
   3: {
-    // Volunteering
+    // Living in cities
     b1: {
       grammar_errors: [
-        { error: "it help the community", correction: "it helps the community", reason: "Chủ ngữ 'it' ngôi thứ 3 số ít yêu cầu động từ 'helps'." },
-        { error: "it develop empathy", correction: "it develops empathy", reason: "Lỗi chia động từ ngôi thứ 3 số ít với chủ ngữ 'it'." },
-        { error: "it give them useful", correction: "it gives them useful", reason: "Lỗi chia động từ ngôi thứ 3 số ít." },
-        { error: "This make society", correction: "This makes society", reason: "Đại từ chỉ định 'This' đóng vai trò chủ ngữ số ít nên động từ phải chia 'makes'." },
-        { error: "work in team", correction: "work in a team", reason: "Thiếu mạo từ 'a' trước danh từ đếm được số ít 'team'." },
-        { error: "manage task", correction: "manage tasks", reason: "Thiếu dạng số nhiều cho việc quản lý công việc nói chung." }
+        { error: "living in big city", correction: "living in a big city", reason: "Thiếu mạo từ 'a' trước cụm danh từ đếm được số ít." },
+        { error: "city give / city have", correction: "cities give / cities have", reason: "Chủ ngữ số nhiều 'cities' phù hợp với ngữ cảnh mô tả chung về các thành phố lớn." },
+        { error: "three important thing", correction: "three important things", reason: "Sau số từ 'three' danh từ 'thing' phải thêm -s." },
+        { error: "find work more easy", correction: "find work more easily", reason: "Cần phó từ 'easily' để bổ nghĩa cho động từ 'find'." }
       ],
-      lexical_advice: "Bài nói dùng các từ vựng lặp đi lặp lại và mang tính Vietlish ('poor people', 'clean environment', 'future job'). Nên nâng cấp lên các cụm B2 như 'low-income families', 'immediate impact', 'win-win situation'."
+      lexical_advice: "Từ vựng của bạn còn mang tính liệt kê đơn giản ('hospital, school, restaurant'). Nên dùng các từ khái quát tốt hơn như 'public infrastructure', 'specialist care', 'creative energy'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "immediate impact", ipa: "/ɪˈmiːdiət ˈɪmpækt/", meaning: "tác động, hiệu quả tức thì", example: "When you volunteer, you see the immediate impact of your help." },
-        { term: "changed my perspective", ipa: "/tʃeɪndʒd maɪ pəˈspektɪv/", meaning: "thay đổi hoàn toàn góc nhìn của tôi", example: "It really changed my perspective on life." },
-        { term: "appreciative of what you have", ipa: "/əˈpriːʃətɪv ɒv wɒt juː hæv/", meaning: "trân trọng những gì mình đang có", example: "Volunteering makes you appreciative of what you have." },
-        { term: "win-win situation", ipa: "/wɪn wɪn ˌsɪtʃuˈeɪʃn/", meaning: "tình huống đôi bên cùng có lợi", example: "So, it's really a win-win situation." }
+        { term: "starting out", ipa: "/stɑːtɪŋ aʊt/", meaning: "bắt đầu bước chân vào lập nghiệp/sự nghiệp", example: "This is especially important when you are starting out." },
+        { term: "better equipped", ipa: "/ˈbetər ɪˈkwɪpt/", meaning: "được trang bị tốt hơn, hiện đại hơn", example: "...hospitals, universities, and public transport are more accessible and better equipped." },
+        { term: "outweigh", ipa: "/ˌaʊˈtweɪ/", meaning: "nặng ký hơn, vượt trội hơn, có nhiều giá trị hơn", example: "But for most people... the advantages outweigh the problems." }
       ],
       grammar_highlights: [
-        { structure: "What-cleft with surprise", explanation: "Dùng mệnh đề 'what' để nhấn mạnh yếu tố bất ngờ, thu hút sự chú ý của giám khảo.", example: "But what really surprised me when I volunteered was how much it changed my perspective." },
-        { structure: "Adjective clause with '-ing' participle (Gerund as Object of preposition)", explanation: "Sử dụng danh động từ sau giới từ để giải thích chi tiết hoạt động.", example: "...like tutoring kids from low-income families or cleaning up local parks." }
+        { structure: "Noun clause after preposition", explanation: "Mệnh đề danh từ đứng sau giới từ để bổ sung chi tiết.", example: "...something people do not appreciate until they experience it." }
       ],
       fluency_coherence: [
-        "Mở đầu bằng quan điểm mạnh mẽ: 'Honestly, I'm a big believer in volunteering...'",
-        "Lập luận chặt chẽ: 'On the community side...', 'But what really surprised me...', 'Plus, you learn...'",
-        "Đưa ra quan điểm cá nhân sâu sắc phủ nhận tính ép buộc ở phần kết: 'I would not make it compulsory, though.'"
+        "Mở bài đưa ra quan điểm toàn diện, rõ ràng ('advantages outweigh the problems').",
+        "Có sự so sánh thực tế giữa thành phố lớn ('Ho Chi Minh City') và thị trấn nhỏ."
       ],
-      delivery_tips: "Cần chú ý phát âm rõ các âm cuối (ending sounds) của động từ và danh từ như 'helps' /ps/, 'skills' /lz/, 'impact' /kt/."
+      delivery_tips: "Cần lên giọng nhẹ khi kết thúc vế nhượng bộ ('Cities have disadvantages...') và hạ giọng sâu, dứt khoát ở vế chính ('But for most people...')."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "transformative endeavor", ipa: "/trænsˈfɔːmətɪv ɪnˈdevə/", meaning: "nỗ lực, hoạt động mang tính thay đổi bản chất con người", example: "Volunteering is one of the most transformative endeavors." },
-        { term: "deep-seated empathy", ipa: "/diːp ˈsiːtɪd ˈempəθi/", meaning: "sự thấu cảm sâu sắc, ăn sâu vào tâm trí", example: "It is essential for cultivating deep-seated empathy." },
-        { term: "antidote to passivity", ipa: "/ˈæntidəʊt tuː pæˈsɪvəti/", meaning: "liều thuốc giải độc cho sự thụ động", example: "It is a powerful antidote to the passivity of social media activism." },
-        { term: "shoulder-to-shoulder", ipa: "/ˈʃəʊldə tuː ˈʃəʊldə/", meaning: "kề vai sát cánh, cùng làm việc trực tiếp", example: "When you work shoulder-to-shoulder with people from marginalized backgrounds..." },
-        { term: "marginalized backgrounds", ipa: "/ˈmɑːdʒɪnəlaɪzd ˈbækɡraʊndz/", meaning: "hoàn cảnh khó khăn, bị gạt ra lề xã hội", example: "...people from marginalized backgrounds." }
+        { term: "concentration", ipa: "/ˌmæsɪv ˌkɒnsnˈtreɪʃn/", meaning: "sự tập trung với mật độ cao", example: "it is not just the number of opportunities... it is how close together they are." },
+        { term: "well-resourced", ipa: "/wel rɪˈzɔːst/", meaning: "được đầu tư dồi dào về tài chính, cơ sở vật chất tốt", example: "well-resourced universities, reliable transport..." },
+        { term: "take for granted", ipa: "/teɪk fɔː ˈɡrɑːntɪd/", meaning: "coi là hiển nhiên, không biết trân trọng", example: "...things that city residents take for granted." }
       ],
       grammar_highlights: [
-        { structure: "Complex comparative structure with 'rather than'", explanation: "Dùng để so sánh sự đối lập giữa hai trạng thái nhận thức một cách trang nhã.", example: "...you start to see them as individuals with unique stories, rather than abstract statistics." },
-        { structure: "Self-correcting/Clarifying marker 'say'", explanation: "Sử dụng trạng từ chèn giữa 'say' để đưa ra ví dụ giả định một cách trôi chảy và tự nhiên như người bản xứ.", example: "When you volunteer for grassroots projects—say, working with migrant workers..." }
+        { structure: "Cleft Sentence with 'It is... that...'", explanation: "Cấu trúc nhấn mạnh yếu tố cốt lõi của lập luận.", example: "it is not just the number of opportunities that matters — it is how close together they are." }
       ],
       fluency_coherence: [
-        "Sử dụng từ vựng liên kết học thuật nhưng đệm rất mượt: 'To be completely frank...', 'Take social impact first...', 'On top of that...'",
-        "Dùng lập luận phản biện mạnh mẽ để kết luận: 'There is something self-defeating about forced generosity—it tends to produce resistance...'"
+        "Lập luận sắc bén: Chỉ ra lợi ích của sự tập trung địa lý ('concentration') thay vì chỉ liệt kê số lượng công việc đơn thuần.",
+        "Nhìn nhận đa chiều, khách quan về các mặt hạn chế của đô thị trước khi đưa ra kết luận thuyết phục."
       ],
-      delivery_tips: "Nhấn mạnh từ 'direct' và 'tangible' trong cụm 'direct, tangible social impact' để thể hiện rõ nét tính chất thực tế của hoạt động tình nguyện."
+      delivery_tips: "Sử dụng ngữ điệu trầm ấm, kéo dài hơi ở cụm 'creative energy' và 'creative encounters' để biểu đạt cảm xúc hào hứng tự nhiên."
     }
   },
   4: {
-    // Women in leadership
+    // Using smartphones
     b1: {
       grammar_errors: [
-        { error: "in leadership position", correction: "in leadership positions / in a leadership position", reason: "Danh từ đếm được 'position' cần ở dạng số nhiều hoặc có mạo từ đi kèm." },
-        { error: "it bring diverse perspective", correction: "it brings diverse perspectives", reason: "Động từ 'bring' thiếu -s chia với ngôi thứ 3 số ít; danh từ 'perspective' đi với 'diverse' phải ở số nhiều." },
-        { error: "it create equal opportunity", correction: "it creates equal opportunities / equal opportunity", reason: "Lỗi chia động từ ngôi thứ 3 số ít và danh từ số nhiều." },
-        { error: "it give young girl positive role model", correction: "it gives young girls positive role models", reason: "Động từ thiếu -s; danh từ chỉ đối tượng chung 'girl' và danh từ sau 'give' cần ở dạng số nhiều." },
-        { error: "Everyone deserve chance", correction: "Everyone deserves a chance", reason: "Chủ ngữ bất định 'Everyone' chia động từ số ít; thiếu mạo từ 'a' trước danh từ số ít 'chance'." }
+        { error: "smartphone have changed", correction: "smartphones have changed", reason: "Danh từ làm chủ ngữ chung nên để ở dạng số nhiều 'smartphones'." },
+        { error: "in three way", correction: "in three ways", reason: "Sau 'three' danh từ 'way' phải thêm -s thành 'ways'." },
+        { error: "send message / family and friend", correction: "send messages / family and friends", reason: "Các danh từ đếm được cần ở dạng số nhiều khi nói chung." },
+        { error: "Even in family dinner", correction: "Even during family dinners", reason: "Thiếu giới từ/mạo từ phù hợp để diễn đạt trạng thái thời gian diễn ra bữa ăn." }
       ],
-      lexical_advice: "Bài nói quá đơn giản và lặp từ. Hãy học cách chuyển đổi các từ cơ bản: 'different way' -> 'diverse perspectives', 'deserve chance' -> 'equal shot', 'successful women' -> 'female role models'."
+      lexical_advice: "Bài nói lặp lại từ 'smartphone' quá nhiều lần. Hãy sử dụng các cụm từ linh hoạt như 'the device', 'digital connection', 'shallow connection', 'in-person conversation'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "bring to the table", ipa: "/brɪŋ tuː ðə ˈteɪbl/", meaning: "đóng góp giá trị, đưa ra ý kiến/giải pháp", example: "They bring fresh and diverse perspectives to the table." },
-        { term: "equal shot at the top jobs", ipa: "/ˈiːkwəl ʃɒt æt ðə tɒp dʒɒbz/", meaning: "cơ hội công bằng để đạt được vị trí hàng đầu", example: "They deserve an equal shot at the top jobs." },
-        { term: "fair play", ipa: "/feə pleɪ/", meaning: "sự công bằng, chơi đẹp", example: "It's just fair play." },
-        { term: "glass ceiling", ipa: "/ɡlɑːs ˈsiːlɪŋ/", meaning: "rào cản vô hình ngăn phụ nữ thăng tiến (trần thủy tinh)", example: "Breaking that glass ceiling is essential." }
+        { term: "coordinate", ipa: "/kəʊˈɔːdɪneɪt/", meaning: "phối hợp, sắp xếp lịch trình/công việc", example: "...or coordinate with a group in real time." },
+        { term: "feel isolated locally", ipa: "/fiːl ˈaɪsəleɪtɪd ˈləʊkəli/", meaning: "cảm thấy cô đơn, cô lập ngay tại nơi mình sống", example: "For people who feel isolated locally, online communities can be..." },
+        { term: "on balance", ipa: "/ɒn ˈbæləns/", meaning: "sau khi cân nhắc kỹ lưỡng, chung quy lại", example: "On balance, I think the benefits are greater than the problems." }
       ],
       grammar_highlights: [
-        { structure: "It has been proven that...", explanation: "Cấu trúc bị động khách quan dùng để viện dẫn bằng chứng thực tế mà không cần nêu cụ thể nguồn.", example: "It's been proven that diverse teams are much better at solving complex problems." },
-        { structure: "Gerund as Subject in conclusion", explanation: "Sử dụng danh động từ làm chủ ngữ để tạo nên kết luận đanh thép và thuyết phục.", example: "...breaking that glass ceiling isn't just good for women—it's essential." }
+        { structure: "Comparison with 'instead of'", explanation: "Cấu trúc chỉ sự thay thế, đối lập hành vi.", example: "it is easy to choose it instead of a real conversation." }
       ],
       fluency_coherence: [
-        "Cách dùng filler mạnh mẽ thể hiện lập trường rõ ràng: 'I strongly believe...'",
-        "Sắp xếp luận điểm chặt chẽ: 'Firstly...', 'Secondly...', 'Finally...'",
-        "Liên kết câu bằng lối giải thích nguyên nhân kết quả: 'When a young girl sees..., her belief...'"
+        "Xây dựng bố cục 3 ý rõ ràng: Lợi ích liên lạc tức thời, mạng xã hội, và tác hại suy giảm giao tiếp trực tiếp.",
+        "Sử dụng các ví dụ thực tế, gần gũi ('video call family', 'family dinner')."
       ],
-      delivery_tips: "Cụm từ 'glass ceiling' là một thuật ngữ hình ảnh ẩn dụ (metaphor). Hãy phát âm rõ ràng, nhấn mạnh cả hai từ này với ngữ điệu đi xuống ở cuối câu để tạo điểm nhấn."
+      delivery_tips: "Chú ý phát âm rõ cụm phụ âm /st/ trong 'just', 'fast', 'worst' để tránh nuốt âm."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "gender parity", ipa: "/ˈdʒendə ˈpærəti/", meaning: "sự bình đẳng giới tuyệt đối", example: "Driving gender parity in leadership is a critical imperative." },
-        { term: "mitigation of cognitive blind spots", ipa: "/ˌmɪtɪˈɡeɪʃn ɒv ˈkɒɡnətɪv blaɪnd spɒts/", meaning: "giảm thiểu các điểm mù trong tư duy/nhận thức", example: "It leads to the mitigation of cognitive blind spots." },
-        { term: "monolithic executive boards", ipa: "/ˌmɒnəˈlɪθɪk ɪɡˈzekjətɪv bɔːdz/", meaning: "ban điều hành đơn điệu, thiếu sự đa dạng", example: "When executive boards are monolithic, they suffer from groupthink." },
-        { term: "unconscious bias", ipa: "/ʌnˈmɒnʃəs ˈbaɪəs/", meaning: "định kiến vô thức ăn sâu vào hành vi", example: "We must dismantle structural barriers like unconscious bias." },
-        { term: "generational multiplier effect", ipa: "/ˌdʒenəˈreɪʃənl ˈmʌltɪplaɪər ɪˈfekt/", meaning: "hiệu ứng nhân cấp, tác động lan tỏa qua nhiều thế hệ", example: "It creates a powerful generational multiplier effect." }
+        { term: "fundamentally changed", ipa: "/ˌfʌndəˈmentəli tʃeɪndʒd/", meaning: "thay đổi một cách căn bản, tận gốc rễ", example: "Smartphones have fundamentally changed how we communicate." },
+        { term: "shallow connections", ipa: "/ˈʃæləʊ kəˈnekʃnz/", meaning: "mối liên kết hời hợt, nông cạn, thiếu chiều sâu", example: "But they can also create shallow connections that feel like real community." },
+        { term: "be thoughtful about", ipa: "/biː ˈθɔːtfl əˈbaʊt/", meaning: "chín chắn, suy nghĩ thấu đáo về", example: "But the impact... is real and worth being thoughtful about." }
       ],
       grammar_highlights: [
-        { structure: "Conditional inversion / Reduced adverbial clause", explanation: "Rút gọn mệnh đề điều kiện hoặc trạng ngữ để tạo sự lưu loát vượt trội.", example: "Incorporating women into leadership introduces diverse lived experiences." },
-        { structure: "Correlative Conjunction with inversion potential", explanation: "Cấu trúc song hành nhấn mạnh lợi ích kép 'not just... but also...' tạo tính hùng biện cao.", example: "Elevating women is not a soft favor—it is a vital step toward excellence." }
+        { structure: "Noun clause as Subject with 'What'", explanation: "Dùng mệnh đề danh từ bắt đầu bằng 'What' làm chủ ngữ để nhấn mạnh kết quả/bản chất.", example: "What gets lost is the full attention and openness..." }
       ],
       fluency_coherence: [
-        "Thể hiện niềm tin tuyệt đối bằng cấu trúc: 'I am absolute in my conviction that...'",
-        "Lập luận sắc bén phản bác các quan điểm coi thường bình đẳng giới: 'This isn't just about political correctness; it's a hard-nosed business strategy.'"
+        "Phân tích sâu sắc sự tương phản giữa 'shallow connections' (kết nối hời hợt trên mạng) và 'genuine community' (cộng đồng thực sự).",
+        "Đưa ra lời khuyên thực tế phản biện thói quen phớt lờ tác hại của công nghệ ('not just acknowledged and then ignored')."
       ],
-      delivery_tips: "Khi phát âm cụm từ 'hard-nosed business strategy', hãy dùng giọng điệu quyết đoán, dứt khoát để làm nổi bật luận điểm thực tế, thực dụng của vấn đề."
+      delivery_tips: "Sử dụng giọng điệu trầm ngâm, nhấn mạnh vào từ 'shallow' và dứt khoát ở từ 'lost' để tạo sức hút mạnh mẽ cho bài nói."
     }
   },
   5: {
-    // Cultural preservation
+    // Environmental protection
     b1: {
       grammar_errors: [
-        { error: "it maintain our national", correction: "it maintains our national", reason: "Động từ 'maintain' phải chia ngôi thứ 3 số ít đi với chủ ngữ 'it'." },
-        { error: "it pass down important value", correction: "it passes down important values", reason: "Động từ 'pass' thêm -es với ngôi thứ 3 số ít; danh từ 'value' cần ở số nhiều chỉ các giá trị nói chung." },
-        { error: "it attract tourist", correction: "it attracts tourists", reason: "Động từ 'attract' thiếu -s; danh từ 'tourist' cần ở dạng số nhiều chỉ lượng khách du lịch nói chung." },
-        { error: "Our festival, music, and tradition make", correction: "Our festivals, music, and traditions make", reason: "Danh từ đếm được 'festival' và 'tradition' cần ở dạng số nhiều khi liệt kê chung." },
-        { error: "different from other nation", correction: "different from other nations", reason: "Sau 'other' đi với danh từ đếm được số nhiều." },
-        { error: "respect elder", correction: "respect elders / respect their elders", reason: "Thiếu dạng số nhiều cho danh từ 'elder' chỉ người lớn tuổi." }
+        { error: "in three way", correction: "in three ways", reason: "Danh từ 'way' phải chia số nhiều sau số từ 'three'." },
+        { error: "everyone do", correction: "everyone does", reason: "Chủ ngữ bất định 'everyone' luôn chia động từ ở ngôi thứ 3 số ít." },
+        { error: "turn off light and electric device", correction: "turn off lights and electric devices", reason: "Cần chia số nhiều khi nói về các thiết bị điện và bóng đèn nói chung." },
+        { error: "This help reduce", correction: "This helps reduce", reason: "Chủ ngữ số ít 'This' yêu cầu động từ chia 'helps'." }
       ],
-      lexical_advice: "Vốn từ vựng của bạn rất hạn chế và lặp lại từ 'culture'. Hãy học cách mở rộng sang các từ có nghĩa rộng hơn như 'traditions', 'heritage', 'sense of belonging', 'local communities'."
+      lexical_advice: "Nên nâng cấp các cụm từ chỉ hoạt động cơ bản như 'turn off lights' thành 'energy conservation' và 'sort rubbish' thành 'waste reduction'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "hold on to our national identity", ipa: "/həʊld ɒn tuː ˈaʊə ˈnæʃnəl aɪˈdentəti/", meaning: "giữ chặt lấy bản sắc dân tộc", example: "It helps us hold on to our national identity." },
-        { term: "sense of belonging", ipa: "/sens ɒv bɪˈlɒŋɪŋ/", meaning: "cảm giác thuộc về một nơi nào đó, gia đình/quê hương", example: "They give us a vital sense of belonging." },
-        { term: "family bonds", ipa: "/ˈfæmɪli bɒndz/", meaning: "sự gắn kết gia đình", example: "Culture teaches young people about family bonds." },
-        { term: "authentic local traditions", ipa: "/ɔːˈθentɪk ˈləʊkl trəˈdɪʃnz/", meaning: "những truyền thống địa phương đích thực", example: "Travelers want to experience authentic local traditions." }
+        { term: "sorting rubbish", ipa: "/ˈsɔːtɪŋ ˈrʌbɪʃ/", meaning: "phân loại rác thải tại nguồn", example: "Simple habits like sorting rubbish... can make a real difference." },
+        { term: "add up to", ipa: "/æd ʌp tuː/", meaning: "tích lũy, cộng dồn lại thành một kết quả lớn", example: "Small changes add up to a large impact." },
+        { term: "eco-friendly", ipa: "/ˈiːkəʊ ˈfrendli/", meaning: "thân thiện với môi trường, hệ sinh thái", example: "When eco-friendly habits become normal in a community, more people follow." }
       ],
       grammar_highlights: [
-        { structure: "In a globalized world where... (Adjective clause of place)", explanation: "Thiết lập bối cảnh vĩ mô toàn cầu hóa để nhấn mạnh sự cần thiết của bản sắc.", example: "In a globalized world where everything is starting to look the same, our unique traditions..." },
-        { structure: "Not just A but also B (with focus shift)", explanation: "Cấu trúc chuyển hướng lập luận để làm bật lên giá trị thực tế ở tương lai.", example: "So, traditional culture isn't just about the past—it's a vital asset for our future." }
+        { structure: "Gerund phrase as Subject", explanation: "Danh động từ đứng đầu câu làm chủ ngữ tạo cảm giác tự nhiên trong lập luận hành động.", example: "Reducing waste is the most visible starting point." }
       ],
       fluency_coherence: [
-        "Mở đầu bằng quan điểm rõ ràng: 'In my opinion, keeping our traditional culture alive... is absolutely essential.'",
-        "Sử dụng ví dụ thực tế cực tốt tại Việt Nam: 'Tet is a good example: it carries values...'",
-        "Dẫn chứng thuyết phục về du lịch để liên kết kinh tế: 'travelers don't fly across the world to see modern skyscrapers; they want...'"
+        "Liên kết xuất sắc giữa hành động nhỏ của cá nhân với tác động cộng gộp to lớn của toàn xã hội.",
+        "Sử dụng các filler chuyển tiếp tự nhiên: 'equally practical', 'the most visible starting point'."
       ],
-      delivery_tips: "Cần chú ý nối âm (connected speech) ở các cụm như 'first of all' /fɜːst_ɒv_ɔːl/, 'hold on to' /həʊld_ɒn_tuː/ để câu nói trôi chảy tự nhiên."
+      delivery_tips: "Chú ý phát âm rõ âm cuối /t/ trong 'impact', 'point', 'practical'."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "homogenizing forces of globalization", ipa: "/həˈmɒdʒənaɪzɪŋ ˈfɔːsɪz ɒv ˌɡləʊbəlaɪˈzeɪʃn/", meaning: "sự đồng hóa của làn sóng toàn cầu hóa", example: "It anchors our collective identity against the homogenizing forces of globalization." },
-        { term: "non-formal vessel", ipa: "/nɒn ˈfɔːml ˈvesl/", meaning: "kênh truyền tải phi chính quy (không qua trường lớp)", example: "It acts as a non-formal vessel for transmitting core social values." },
-        { term: "experiential rather than instructional", ipa: "/ɪkˌspɪəriˈenʃl ˈrɑːðə ðæn ɪnˈstrʌkʃənl/", meaning: "mang tính trải nghiệm thực tế thay vì lý thuyết chỉ dạy", example: "Values transmission is far more effective when it's experiential rather than instructional." },
-        { term: "filial piety", ipa: "/ˈfɪliəl ˈpaɪəti/", meaning: "lòng hiếu thảo (giá trị cốt lõi Á Đông)", example: "Young people instinctively absorb values like filial piety." },
-        { term: "sustainable, community-based tourism", ipa: "/səˈsteɪnəbl kəˈmjuːnəti beɪst ˈtʊərɪzəm/", meaning: "du lịch bền vững dựa vào cộng đồng", example: "It serves as an engine for sustainable, community-based tourism." }
+        { term: "consistent changes", ipa: "/kənˈsɪstənt tʃeɪndʒɪz/", meaning: "những thay đổi nhỏ nhất quán, kiên trì", example: "Small, consistent changes... build a habit of environmental awareness." },
+        { term: "social norms", ipa: "/ˈsəʊʃl nɔːmz/", meaning: "những chuẩn mực, quy chuẩn chung của xã hội", example: "When you change your own habits... you shift what feels normal in your community." },
+        { term: "not sufficient on its own", ipa: "/nɒt səˈfɪʃnt ɒn ɪts əʊn/", meaning: "không đủ nếu chỉ đơn độc hành động một mình", example: "Individual action is not sufficient on its own — bigger problems need bigger solutions." }
       ],
       grammar_highlights: [
-        { structure: "Reframing with Metaphorical Noun", explanation: "Tái cấu trúc định nghĩa câu hỏi bằng một hình ảnh ẩn dụ sâu sắc để khẳng định tư duy độc lập.", example: "When we talk about cultural preservation, we have to recognize that culture isn't a static museum piece..." },
-        { structure: "Adverbial starting 'be it' (subjunctive concession)", explanation: "Dùng thể giả định rút gọn 'be it...' để liệt kê các ví dụ một cách trang trọng, học thuật.", example: "...our unique traditions—be it the ancestral rituals of Tet or traditional craftsmanship—provide us..." }
+        { structure: "Passive voice with 'is strongly influenced'", explanation: "Dùng thể bị động để mô tả quy luật hành vi xã hội một cách khách quan.", example: "Environmental behaviour is strongly influenced by what those around you do." }
       ],
       fluency_coherence: [
-        "Sử dụng kỹ thuật phản biện định nghĩa ngay từ đầu: 'The word preservation can suggest... rather than something living...'",
-        "Kết bài mang tính triết học cực kỳ đắt giá, tạo ấn tượng cực mạnh cho giám khảo: 'So, preservation is not about resisting progress—it's about progress with a soul.'"
+        "Lập luận vượt bậc bằng việc phân tích cơ chế lan tỏa nhận thức ('multiplier effect') thông qua việc dịch chuyển chuẩn mực xã hội.",
+        "Kết bài phản biện cực tốt, thể hiện tư duy hệ thống: hành động cá nhân là cần thiết nhưng chưa đủ, vẫn cần các giải pháp vĩ mô."
       ],
-      delivery_tips: "Hãy thể hiện sự tương phản rõ ràng qua giọng nói giữa cụm từ 'static museum piece' (phát âm với tông giọng phẳng, hơi chán) và 'dynamic, living system' (phát âm hào hứng, nhấn mạnh mạnh mẽ)."
+      delivery_tips: "Sử dụng ngữ điệu đi lên ở vế nhượng bộ ('Individual action is not sufficient on its own...') và hạ giọng sâu mạnh ở vế chính để khẳng định lập luận vững vàng."
     }
   },
   6: {
-    // Gap year
+    // Choosing a career
     b1: {
       grammar_errors: [
-        { error: "taking gap year", correction: "taking a gap year", reason: "Thiếu mạo từ 'a' trước cụm danh từ số ít 'gap year'." },
-        { error: "it help student build", correction: "it helps students build / it helps a student build", reason: "Động từ 'help' thiếu -s chia với ngôi thứ 3 số ít; danh từ 'student' cần chuyển thành số nhiều chỉ đối tượng chung." },
-        { error: "build life skill", correction: "build life skills", reason: "Kỹ năng sống nói chung luôn dùng ở dạng số nhiều 'life skills'." },
-        { error: "solve problem in", correction: "solve problems in", reason: "Thiếu số nhiều cho danh từ 'problem'." },
-        { error: "These are skill that school do not", correction: "These are skills that schools do not / a school does not", reason: "Danh từ 'skill' và 'school' phải hòa hợp số nhiều với đại từ chỉ định 'These' và trợ động từ 'do not'." },
-        { error: "After 12 year of studying", correction: "After 12 years of studying", reason: "Danh từ 'year' phải chia số nhiều sau số lượng '12'." },
-        { error: "is good idea", correction: "is a good idea", reason: "Thiếu mạo từ 'a' trước cụm danh từ số ít 'good idea'." }
+        { error: "choose career", correction: "choose a career", reason: "Thiếu mạo từ 'a' trước danh từ đếm được số ít 'career'." },
+        { error: "This bring", correction: "This brings", reason: "Động từ 'bring' phải chia ngôi thứ ba số ít đi với chủ ngữ 'This'." },
+        { error: "after a few year", correction: "after a few years", reason: "Sau cụm từ chỉ lượng 'a few', danh từ 'year' phải chia số nhiều." },
+        { error: "also bring", correction: "also brings", reason: "Chủ ngữ 'choosing work you love' là một cụm danh động từ số ít, động từ phải chia 'brings'." }
       ],
-      lexical_advice: "Bài nói lặp lại liên tục từ 'gap year' và các tính từ đơn giản như 'good', 'difficult'. Hãy thay thế bằng các collocations B2 như 'brilliant idea', 'self-confidence', 'recharge your batteries'."
+      lexical_advice: "Bài nói lặp từ 'work' và 'money' nhiều lần. Hãy nâng cấp lên các cụm collocation B2/C1 như 'intrinsic motivation', 'compounding effect', 'long-term satisfaction'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "brilliant idea", ipa: "/ˈbrɪliənt aɪˈdɪə/", meaning: "ý tưởng tuyệt vời, thông minh", example: "Personally, I think taking a gap year before university is a brilliant idea." },
-        { term: "step foot on campus", ipa: "/step fʊt ɒn ˈkæmpəs/", meaning: "đặt chân lên khuôn viên giảng đường đại học", example: "...before you even step foot on campus." },
-        { term: "choosing the wrong major", ipa: "/ˈtʃuːzɪŋ ðə rɒŋ ˈmeɪdʒə/", meaning: "chọn sai ngành học", example: "So many students choose the wrong major because they are rushed." },
-        { term: "recharge your batteries", ipa: "/ˌriːˈtʃɑːdʒ jɔː ˈbætəriz/", meaning: "sạc lại năng lượng (sau thời gian làm việc vất vả)", example: "It is the perfect way to recharge your batteries." }
+        { term: "keeps you going", ipa: "/kiːps juː ˈɡəʊɪŋ/", meaning: "giữ cho bạn động lực để tiếp tục cố gắng", example: "What keeps you going is whether the work itself means something to you." },
+        { term: "take more initiative", ipa: "/teɪk mɔː ɪˈnɪʃətɪv/", meaning: "chủ động hơn, đưa ra nhiều sáng kiến hơn", example: "...you work harder, learn faster, and take more initiative." },
+        { term: "overall wellbeing", ipa: "/ˌəʊvərˈɔːl ˌwælˈbiːɪŋ/", meaning: "trạng thái sức khỏe tinh thần và thể chất toàn diện", example: "That affects not just your career but your overall wellbeing." }
       ],
       grammar_highlights: [
-        { structure: "Passive voice for general phenomenon", explanation: "Dùng thể bị động để nêu bật một thực trạng xã hội một cách khách quan.", example: "So many students choose the wrong major because they are rushed." },
-        { structure: "Conditional with 'as long as'", explanation: "Thiết lập điều kiện ràng buộc để lập luận mang tính thực tế và chặt chẽ hơn.", example: "So as long as you have a solid plan, a gap year is highly rewarding." }
+        { structure: "Not only... but also...", explanation: "Cấu trúc song hành nhấn mạnh lợi ích song phương.", example: "Work is not only about money — it should also make you feel good..." }
       ],
       fluency_coherence: [
-        "Cách dùng các cụm từ đệm chỉ ý kiến cá nhân tự nhiên: 'Personally, I think...', 'First off...', 'Secondly...'",
-        "Sử dụng các thành ngữ nói tự nhiên, sinh động: 'recharge your batteries', 'step foot on campus'."
+        "Phân tích mạch lạc động lực ban đầu của đồng lương đối lập với ý nghĩa công việc về mặt lâu dài.",
+        "Các ý được chuyển tiếp hợp lý, nâng dần tầm quan trọng từ công việc đến chất lượng cuộc sống."
       ],
-      delivery_tips: "Cần chú ý nhấn mạnh vào trạng từ 'completely' trong cụm 'completely exhausted' và kéo dài nguyên âm để bộc lộ cảm xúc mệt mỏi một cách tự nhiên trong văn nói."
+      delivery_tips: "Nhấn mạnh vào từ 'meaning' và 'wellbeing' để bộc lộ rõ tinh thần nhân văn của bài nói."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "transformative interlude", ipa: "/trænsˈfɔːmətɪv ˈɪntəluːd/", meaning: "giai đoạn chuyển tiếp mang tính thay đổi bản thân sâu sắc", example: "A gap year can be an incredibly transformative interlude." },
-        { term: "pragmatic life competencies", ipa: "/præɡˈmætɪk laɪf ˈkɒmpɪtənsiz/", meaning: "những năng lực thực tế trong cuộc sống", example: "It accelerates the acquisition of pragmatic life competencies." },
-        { term: "academic conveyor belt", ipa: "/ˌækəˈdemɪk kənˈveɪə belt/", meaning: "băng chuyền học tập (ẩn dụ cho việc học liên tục từ cấp này lên cấp khác)", example: "The traditional academic conveyor belt shields students from real-world friction." },
-        { term: "student attrition", ipa: "/ˈstjuːdnt əˈtrɪʃn/", meaning: "tỷ lệ học sinh bỏ học giữa chừng", example: "A major issue in higher education is the alarming rate of student attrition." },
-        { term: "psychological reset", ipa: "/ˌsaɪkəˈlɒdʒɪkl ˌriːˈset/", meaning: "sự cài đặt lại trạng thái tâm lý, giải tỏa căng thẳng", example: "A self-directed gap year acts as a psychological reset." }
+        { term: "plays out across three dimensions", ipa: "/pleɪz aʊt əˈkrɒs θriː dɪˈmenʃnz/", meaning: "diễn ra, biểu hiện trên ba khía cạnh/phương diện", example: "...and the case plays out across three dimensions." },
+        { term: "sustains you", ipa: "/səˈsteɪnz juː/", meaning: "nuôi dưỡng, nâng đỡ và duy trì năng lượng cho bạn", example: "What sustains you across a long career is whether..." },
+        { term: "overlap", ipa: "/ˌəʊvəˈlæp/", meaning: "chồng chéo, giao thoa lẫn nhau", example: "...look for work where your interests and genuine abilities overlap." }
       ],
       grammar_highlights: [
-        { structure: "Metaphorical noun clause as Subject", explanation: "Sử dụng ẩn dụ 'academic conveyor belt' làm chủ ngữ giúp tăng tính trừu tượng và chiều sâu học thuật cho lập luận.", example: "The traditional academic conveyor belt shields students from real-world friction." },
-        { structure: "Complex absolute construction", explanation: "Mệnh đề độc lập bổ trợ giải thích nguyên nhân sâu xa của một hiện trạng hệ thống.", example: "A major issue is the alarming rate of student attrition, largely driven by students choosing majors..." }
+        { structure: "Subjunctive with 'rather than'", explanation: "Dùng cấu trúc so sánh đối lập giả định để đưa ra lời khuyên thực tế sắc sảo.", example: "...choose a career based on genuine interest rather than just salary..." }
       ],
       fluency_coherence: [
-        "Cách dẫn dắt luận điểm có điều kiện hóa: 'A gap year, when structured purposefully...'",
-        "Kết bài mang cấu trúc song song đối lập tuyệt đẹp, cực kỳ ấn tượng: 'It's not a year off—it's a year on, but on your own terms.'"
+        "Tư duy phản biện sắc sảo: Chứng minh việc làm việc bằng đam mê không chỉ giúp hạnh phúc mà còn gián tiếp tạo ra thành quả tài chính tốt hơn trong dài hạn ('compounding effect').",
+        "Lời khuyên kết luận vô cùng thực tế, khôn ngoan ('treat salary as something that needs to be sufficient rather than the main goal')."
       ],
-      delivery_tips: "Sử dụng ngữ điệu đi xuống chắc chắn ở từ 'terms' trong câu kết 'but on your own terms' để tạo một cái kết dứt khoát, thuyết phục và đầy tự tin."
+      delivery_tips: "Hạ giọng dứt khoát và phát âm rõ ràng, chắc chắn ở từ 'sufficient' ở câu cuối để tạo điểm nhấn thuyết phục."
     }
   },
   7: {
-    // Immigration
+    // Online learning
     b1: {
       grammar_errors: [
-        { error: "immigration have more benefit than problem", correction: "immigration has more benefits than problems", reason: "Chủ ngữ không đếm được 'immigration' phải đi với động từ số ít 'has'. Sau 'more' đi với danh từ số nhiều đếm được 'benefits' và 'problems'." },
-        { error: "it fill labour", correction: "it fills labour", reason: "Lỗi chia động từ ngôi thứ 3 số ít với chủ ngữ 'it'." },
-        { error: "it enrich the culture", correction: "it enriches the culture", reason: "Động từ kết thúc bằng 'ch' thêm 'es' khi chia ngôi thứ 3 số ít." },
-        { error: "immigrant also make", correction: "immigrants also make", reason: "Thiếu danh từ số nhiều khi nói về đối tượng người nhập cư chung." },
-        { error: "In many country", correction: "In many countries", reason: "Sau 'many' bắt buộc phải dùng danh từ số nhiều." },
-        { error: "there are not enough worker", correction: "there are not enough workers", reason: "Sau 'enough' đi với danh từ số nhiều đếm được." }
+        { error: "It offer", correction: "It offers", reason: "Chủ ngữ 'It' yêu cầu động từ chia số ít 'offers'." },
+        { error: "three advantage", correction: "three advantages", reason: "Danh từ 'advantage' phải ở số nhiều sau 'three'." },
+        { error: "online learning give / require", correction: "online learning gives / requires", reason: "Chủ ngữ số ít 'online learning' đòi hỏi động từ phải thêm -s." },
+        { error: "without teacher always watching", correction: "without a teacher always watching", reason: "Thiếu mạo từ 'a' trước danh từ đếm được số ít 'teacher'." }
       ],
-      lexical_advice: "Bài nói quá đơn giản và lặp từ 'immigrant'. Hãy cải thiện vốn từ vựng bằng cách dùng các cụm từ B2 như 'labor shortages', 'vibrant places', 'entrepreneurful drive', 'economic contribution'."
+      lexical_advice: "Bạn nên dùng từ 'flexibility' thay vì 'flexible schedule' liên tục, và dùng cụm 'academic accountability' thay vì chỉ 'teacher watching us'."
     },
     b2: {
       vocabulary_highlights: [
-        { term: "aging population", ipa: "/ˈeɪdʒɪŋ ˌpɒpjuˈleɪʃn/", meaning: "dân số già", example: "Many developed nations have aging populations." },
-        { term: "vibrant and tolerant", ipa: "/ˈvaɪbrənt ænd ˈtɒlərənt/", meaning: "sôi động và bao dung/cởi mở", example: "It makes cities much more vibrant and tolerant." },
-        { term: "entrepreneurial", ipa: "/ˌɒntrəprəˈnɜːriəl/", meaning: "có tinh thần khởi nghiệp, làm chủ", example: "Immigrants generally have a highly entrepreneurial spirit." },
-        { term: "on balance", ipa: "/ɒn ˈbæləns/", meaning: "sau khi cân nhắc kỹ lưỡng, chung quy lại", example: "On balance, immigration is a powerful force for growth." }
+        { term: "supplement to", ipa: "/ˈsʌplɪmənt tuː/", meaning: "phần bổ sung, hỗ trợ thêm cho cái chính", example: "I think online learning works very well as a supplement to traditional study." },
+        { term: "go back over", ipa: "/ɡəʊ bæk ˈəʊvə/", meaning: "rà soát, xem lại kỹ lưỡng các nội dung đã qua", example: "...go back over material you did not understand." },
+        { term: "stay on track", ipa: "/steɪ ɒn træk/", meaning: "giữ đúng tiến độ, lộ trình mục tiêu", example: "...the structure and social environment... is what helps them stay on track." }
       ],
       grammar_highlights: [
-        { structure: "Relative clause with 'that would otherwise go...'", explanation: "Dùng mệnh đề quan hệ giả định trái với thực tế để làm nổi bật vai trò không thể thiếu của người nhập cư.", example: "Immigrants take on roles that would otherwise go unfilled." },
-        { structure: "Concessive clause with 'While there are certainly...'", explanation: "Cấu trúc nhượng bộ thừa nhận khó khăn thực tế trước khi khẳng định quan điểm lạc quan ở vế chính.", example: "While there are certainly challenges with integration, I believe they can be solved." }
+        { structure: "Relative clause with 'that'", explanation: "Mệnh đề quan hệ bổ nghĩa làm rõ thời gian hoặc điều kiện phù hợp.", example: "You can study at a time that suits you." }
       ],
       fluency_coherence: [
-        "Mở đầu bằng quan điểm cân bằng và rõ ràng: 'If you ask me, immigration generally brings far more benefits than...'",
-        "Dùng các liên từ chuyển tiếp chuyên nghiệp: 'On the labor front...', 'Secondly...', 'Finally...', 'On balance...'"
+        "Bố cục chặt chẽ khi nhìn nhận tính tự giác ('self-discipline') dưới cả hai góc độ: vừa là lợi thế, vừa là thách thức lớn.",
+        "Câu kết đưa ra đánh giá thực tế về khả năng thay thế lớp học truyền thống."
       ],
-      delivery_tips: "Từ 'entrepreneurial' rất khó phát âm. Hãy chú ý luyện phát âm đúng trọng âm /ˌɒntrəprəˈnɜːriəl/ và nhấn vào âm tiết thứ tư để câu nói nghe chuẩn xác và tự nhiên."
+      delivery_tips: "Cần chú ý phát âm chính xác nguyên âm đôi /aɪ/ trong các từ 'online', 'discipline', 'independent'."
     },
     c1: {
       vocabulary_highlights: [
-        { term: "demographic time bomb", ipa: "/ˌdeməˈɡræfɪk taɪm bɒm/", meaning: "quả bom hẹn giờ về nhân khẩu học (vấn đề già hóa dân số nghiêm trọng)", example: "Many economies are facing demographic time bombs." },
-        { term: "structural labor deficit", ipa: "/ˈstrʌktʃərəl ˈleɪbə ˈdefɪsɪt/", meaning: "sự thiếu hụt lao động mang tính cấu trúc hệ thống", example: "It addresses critical structural labor deficits." },
-        { term: "creative cross-pollination", ipa: "/kriˈeɪtɪv krɒs ˌpɒləˈneɪʃn/", meaning: "sự giao thoa và kết hợp văn hóa mang tính sáng tạo", example: "It fosters cultural and creative cross-pollination." },
-        { term: "macroeconomic dynamism", ipa: "/ˌmækrəʊˌiːkəˈnɒmɪk ˈdaɪnəmɪzəm/", meaning: "sự năng động của kinh tế vĩ mô", example: "It drives long-term macroeconomic dynamism." },
-        { term: "fiscal net contributors", ipa: "/ˈfɪskl net kənˈtrɪbjuːtəz/", meaning: "những người đóng góp ròng cho ngân sách nhà nước", example: "Immigrants are net contributors to the fiscal system." }
+        { term: "revisit material", ipa: "/ˌriːˈvɪzɪt məˈtɪəriəl/", meaning: "xem lại, nghiên cứu kỹ lại tài liệu học tập", example: "...revisit material that did not make sense the first time." },
+        { term: "relocate", ipa: "/ˌriːləʊˈkeɪt/", meaning: "di dời chỗ ở, chuyển vùng sinh sống", example: "A student... who would previously have needed to relocate... no longer has to." },
+        { term: "accountability", ipa: "/əˌkaʊntəˈbɪləti/", meaning: "trách nhiệm tự giác giải trình, tự chịu trách nhiệm", example: "But for many learners, the structure, accountability... is what makes learning stick." }
       ],
       grammar_highlights: [
-        { structure: "Inversion with 'What is...'", explanation: "Cấu trúc câu nhấn mạnh giúp khẳng định lập luận một cách đanh thép trong văn nói.", example: "What keeps a country competitive on the global stage is open and well-managed immigration." },
-        { structure: "Noun Phrase Appositive", explanation: "Sử dụng ngữ danh từ đồng cách để bổ nghĩa trực tiếp cho một danh từ phức tạp trước đó.", example: "Many post-industrial economies are facing demographic time bombs—specifically, rapidly aging populations..." }
+        { structure: "Hypothetical Past Relative Clause", explanation: "Mệnh đề quan hệ giả định một tình huống trong quá khứ đã được công nghệ giải quyết.", example: "A student... who would previously have needed to relocate... no longer has to." }
       ],
       fluency_coherence: [
-        "Mở bài đi thẳng vào sự phức tạp của vấn đề: 'The discourse around immigration is often highly charged, but a balanced analysis...'",
-        "Kết hợp nhuần nhuyễn giữa việc thừa nhận lo ngại của người dân và đưa ra giải pháp hành chính: 'While public anxieties are understandable..., they are essentially administrative challenges...'"
+        "Phân tích vô cùng thực tế về bối cảnh Việt Nam, làm nổi bật lợi thế không phải di chuyển xa lên các thành phố lớn để học giảng viên giỏi.",
+        "Lập luận đa chiều sâu sắc về bản chất của 'self-discipline' và sự cần thiết của môi trường xã hội lớp học thực tế."
       ],
-      delivery_tips: "Khi phát âm cụm từ 'demographic time bomb', hãy nâng giọng nhẹ ở chữ 'time' và hạ giọng dứt khoát ở chữ 'bomb' để tạo nhạc điệu nói lôi cuốn và kịch tính vừa phải."
+      delivery_tips: "Nhấn mạnh vào từ 'relocate' và 'supplement' để thể hiện sự khác biệt rõ nét giữa hai hình thức học tập."
     }
   }
 };
